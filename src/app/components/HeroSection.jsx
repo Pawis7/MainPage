@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const HeroSection = () => {
   return (
@@ -12,7 +13,17 @@ const HeroSection = () => {
                     i´m making my first web site with webcoded tutorial
                 </p>
             </div>
-            <div className='col-span-5'></div>
+            <div className='col-span-5'>
+                <div className='rounded-full bg-[#080808] w-[400px] h-[400px] relative'>
+                    <Image
+                        src="/images/hero.png"
+                        alt='hero'
+                        className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
+                        width={500}
+                        height={500}
+                    />
+                </div>
+            </div>
         </div>
     </section>
     
