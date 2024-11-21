@@ -38,13 +38,13 @@ const HeroSection = () => {
             </button>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br  from-blue-300 to-indigo-600 hover:bg-slate-800 text-white mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Go To CV
+                Contact me
               </span>
             </button>
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] relative overflow-hidden">
+          <div className="rounded-full bg-[#181818] w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] relative overflow-hidden">
             <Image
               src="/images/hero.png"
               alt="hero"
