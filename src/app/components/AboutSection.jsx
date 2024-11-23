@@ -10,8 +10,7 @@ const TAB_DATA = {
       <ul className="list-disc pl-2">
         <li>Python</li>
         <li>JavaScript</li>
-        <li>React</li>
-        <li>C++</li>
+        <li>HTML</li>
       </ul>
     ),
   },
@@ -56,13 +55,14 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
           <p className="test-base  md:text-lg">
-            I spent 5 semesters of software engineering at the University of
-            Guadalajara, although I learned many things, this was the one in
-            which I learned the most, resulting in all my projects that I have
-            now in my CV. My favorite languages are python and now javascript, I
-            learned c++ but I didn´t like it at all but I can master it to the
-            level of the others with just a few revisions, I have that great
-            ability to learn things and that helps me a lot.
+            I have been studying Software Engineering for five semesters at the University of Guadalajara. 
+            Although I have learned many things throughout this time, this last semester was the most impactful, 
+            as it led to the creation of the projects I now showcase in my CV. My favorite programming languages 
+            are Python and, more recently, JavaScript. I also learned C++, but I didn´t enjoy it as much. However, 
+            I can quickly reach the same proficiency level in C++ as in my other languages with just a bit of practice. 
+            My ability to learn new skills quickly has always been a significant advantage for me.
+
+
           </p>
           <div className="flex flex-row mt-8">
             <TabButton
