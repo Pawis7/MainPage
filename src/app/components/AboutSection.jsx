@@ -9,7 +9,7 @@ const TAB_DATA = {
     content: (
       <ul className="list-disc pl-2">
         <li>Python</li>
-        <li>JavaScript</li>
+        <li>CSS 3</li>
         <li>HTML</li>
       </ul>
     ),
