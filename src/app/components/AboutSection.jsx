@@ -58,11 +58,9 @@ const AboutSection = () => {
             I have been studying Software Engineering for five semesters at the University of Guadalajara. 
             Although I have learned many things throughout this time, this last semester was the most impactful, 
             as it led to the creation of the projects I now showcase in my CV. My favorite programming languages 
-            are Python and, more recently, JavaScript. I also learned C++, but I didn´t enjoy it as much. However, 
+            are Python and, most recently, web development languages like CSS and HTML. I also learned C++, but I didn´t enjoy it as much. However, 
             I can quickly reach the same proficiency level in C++ as in my other languages with just a bit of practice. 
             My ability to learn new skills quickly has always been a significant advantage for me.
-
-
           </p>
           <div className="flex flex-row mt-8">
             <TabButton
