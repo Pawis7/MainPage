@@ -30,15 +30,26 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ffffff] text-base sm:text-lg mb-6 lg:text-xl">
-            i´m making my first web site with webcoded tutorial
+            i´m making my first web site with webcoded tutorial (isn´t finish
+            yet)
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-300 to-indigo-600 hover:bg-slate-200 text-white">
-              Hire me
-            </button>
-            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-300 to-indigo-600 hover:bg-slate-800 text-white mt-3">
-              <a href="https://cv.pawstudio.xyz" target="_blank" rel="noopener noreferrer">
-                <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+            <a
+              href="https://www.linkedin.com/in/diego-saul-mu%C3%B1oz-arciniega-31314533a/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-300 to-indigo-600  hover:from-blue-800 hover:to-indigo-900  hover:text-gray-500  text-white">
+                <span>Hire Me</span>
+              </button>
+            </a>
+            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-300 to-indigo-600 hover:from-blue-800 hover:to-indigo-900  hover:text-gray-400 text-white mt-3">
+              <a
+                href="https://cv.pawstudio.xyz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="block bg-[#121212] rounded-full px-5 py-2">
                   My CV
                 </span>
               </a>
