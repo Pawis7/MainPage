@@ -18,7 +18,7 @@ const NavBar = () => {
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link legacyBehavior href="/">
-          <Image src="/images/logo.png" width={130} height={130} alt="logo" />
+          <Image src="https://cdn.pawstudio.xyz/logo.png" width={130} height={130} alt="logo" />
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

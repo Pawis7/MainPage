@@ -47,7 +47,7 @@ const AboutSection = () => {
     <section className="text-white">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
-          src="/images/AboutMe.png"
+          src="https://cdn.pawstudio.xyz/AboutMe.png"
           width={500}
           height={500}
           alt="About me"
@@ -55,12 +55,16 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
           <p className="test-base  md:text-lg">
-            I have been studying Software Engineering for five semesters at the University of Guadalajara. 
-            Although I have learned many things throughout this time, this last semester was the most impactful, 
-            as it led to the creation of the projects I now showcase in my CV. My favorite programming languages 
-            are Python and, most recently, web development languages like CSS and HTML. I also learned C++, but I didn´t enjoy it as much. However, 
-            I can quickly reach the same proficiency level in C++ as in my other languages with just a bit of practice. 
-            My ability to learn new skills quickly has always been a significant advantage for me.
+            I have been studying Software Engineering for five semesters at the
+            University of Guadalajara. Although I have learned many things
+            throughout this time, this last semester was the most impactful, as
+            it led to the creation of the projects I now showcase in my CV. My
+            favorite programming languages are Python and, most recently, web
+            development languages like CSS and HTML. I also learned C++, but I
+            didn´t enjoy it as much. However, I can quickly reach the same
+            proficiency level in C++ as in my other languages with just a bit of
+            practice. My ability to learn new skills quickly has always been a
+            significant advantage for me.
           </p>
           <div className="flex flex-row mt-8">
             <TabButton
